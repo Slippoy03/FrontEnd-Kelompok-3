@@ -1,67 +1,66 @@
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sauce One", sans-serif;
+  font-family: 'Open Sauce One',sans-serif;
+
 }
-html {
+html{
   font-size: 14px;
 }
 
-.container {
+.container{
   background-color: white;
   min-height: 580px;
 }
-.logo {
+.logo{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 35px;
 }
-
-.logo img {
-  height: 50%;
-}
-
-.background-image {
+.background-image{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 48px;
 }
-.background-close {
+.background-close{
   @media (max-width: 768px) {
-    img {
-      display: none;
+      img {
+        display: none;
+      }
     }
-  }
+  
 }
-.login-form {
+.login-form{
   width: 412px;
   background-color: #fff;
   position: absolute;
-  box-shadow: 0 1px 4px rgba(141, 150, 170, 0.4);
+  box-shadow: 0 1px 4px rgba(141,150,170,0.4);
   border-radius: 8px;
-  padding: 32px;
+  padding:32px;
   top: 135px;
   left: 0;
   right: 0;
   margin: auto;
   height: auto;
   @media (max-width: 768px) {
-    max-width: 99%;
-    width: 750px;
-    top: 70px;
-  }
+      max-width: 99%;
+      width: 750px;
+      top: 70px;
+    }
+
 }
-.heading1 {
+.heading1{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 38px;
   font-size: 29px;
+  
 }
-.heading1 h1 {
+.heading1 h1{
   display: block;
   position: relative;
   font-weight: 600;
@@ -69,39 +68,41 @@ html {
   line-height: 32px;
   letter-spacing: -0.4px;
   color: #212121;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans',sans-serif;
   margin-bottom: 16px;
 }
 
-.heading1 a {
+.heading1 a{
   margin-left: 20px;
   text-decoration: none;
   font-size: 14px;
-  color: #041dff;
+  color: #03AC0E;
+  
 }
-.email-input {
+.email-input{
   margin-top: 50px;
 }
-.label1 {
-  color: rgb(49, 53, 59, 0.68);
+
+.label1{
+  color: rgb(49,53,59,0.68);
   font-weight: 700;
   line-height: 16px;
   font-size: 13px;
   display: inline-block;
   margin-bottom: 7px;
 }
-.input-form {
+.input-form{
   height: 45px;
   border-radius: 8px;
   display: flex;
-  border: 1px solid #e5e7e9;
+  border: 1px solid #E5E7E9;
   margin-bottom: 20px;
   align-items: center;
-  outline: none;
+  outline: none;  
   transition: border-color 280ms ease 0s;
 }
 
-.input-form input {
+.input-form input{
   min-width: 0;
   min-height: 0;
   padding-left: 12px;
@@ -117,12 +118,12 @@ html {
   font-size: 18px;
 }
 
-.input-form a {
+
+.input-form a{
   text-decoration: none;
-  color: #041dff;
+  color: #03AC0E;
   cursor: pointer;
 }
-
 
 .need-help {
   display: flex;
@@ -131,44 +132,47 @@ html {
   padding-bottom: 20px;
   padding-top: 5px;
 }
-.need-help a {
+.need-help a{
   font-size: 13.5px;
   line-height: 2px;
   text-decoration: none;
-  color: #041dff;
+  color: #03AC0E;
   cursor: pointer;
 }
 
-.next {
+.login-form .next{
   border: none;
   outline: none;
-  justify-content: center;
-  align-items: center;
-  background-color: #041dff;
-  color: #141630;
+  border-radius: 8px;
+  font-weight: 800;
+  background-color: #E4EBF5;
+  color: #AAB4C8;
   padding: 0 16px;
   width: 100%;
   height: 43px;
-  cursor: pointer;
+  cursor: not-allowed;;
   font-size: 1rem;
 }
 
-footer {
+
+footer{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
   font-size: 13px;
   @media (max-width: 768px) {
-    font-size: 0;
-  }
+      font-size: 0;
+    }
+
 }
-footer span {
-  color: rgba(0, 0, 0, 0.54);
+footer span{
+  color:  rgba(0, 0, 0, 0.54);
+  
 }
-footer span a {
+footer span a{
   display: inline-block;
-  color: #041dff;
+  color: #00AA5B;
   text-decoration: none;
   padding-left: 16px;
   margin-left: 16px;
@@ -177,6 +181,7 @@ footer span a {
   border-left: 1px solid #bfc9d9;
   cursor: pointer;
 }
+	
 .passwordinput{
   flex: 1;
   position: relative;
