@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./css/login.css";
 
 function Login() {
@@ -24,36 +24,28 @@ function Login() {
               <div className="input-form">
                 <input type="text" required />
               </div>
+
+
+            <label htmlFor="password" className="label1" >
+             Kata Sandi
+             </label>
+             <div className="input-form">
+                <input type="text" required />
+              </div>
+
+
+
               <div className="need-help">
                 <a href="#">Butuh bantuan?</a>
               </div>
-              <a href="Home.jsx">
+              
+              <a href="/">
                 <button className="next">
                   <span>Selanjutnya</span>
                 </button>
               </a>
             </div>
-            <div className="option">
-              <span className="line"></span>
-              <span className="text-option">atau masuk dengan</span>
-              <span className="line"></span>
-            </div>
-            <div className="qr">
-              <a href="#">
-                <button className="qrcode">
-                  <img src="img-login/Qricon.png" alt="" />
-                  <span>Scan Kode QR</span>
-                </button>
-              </a>
-            </div>
-            <div className="google">
-              <a href="#">
-                <button className="withgoogle">
-                  <img src="img-login/Googleicon.png" alt="" />
-                  <span>Google</span>
-                </button>
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
