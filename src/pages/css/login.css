@@ -122,6 +122,8 @@ html {
   color: #041dff;
   cursor: pointer;
 }
+
+
 .need-help {
   display: flex;
   justify-content: flex-end;
@@ -136,13 +138,14 @@ html {
   color: #041dff;
   cursor: pointer;
 }
+
 .next {
   border: none;
   outline: none;
-  border-radius: 8px;
-  font-weight: 800;
+  justify-content: center;
+  align-items: center;
   background-color: #041dff;
-  color: #ffffff;
+  color: #141630;
   padding: 0 16px;
   width: 100%;
   height: 43px;
@@ -150,70 +153,6 @@ html {
   font-size: 1rem;
 }
 
-.option {
-  display: flex;
-  align-items: center;
-  margin: 26px 0;
-}
-.text-option {
-  font-size: 13px;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.38);
-  padding: 0 18px;
-  white-space: nowrap;
-}
-.line {
-  display: inline-block;
-  border: 0.5px solid rgba(0, 0, 0, 0.12);
-  width: 50%;
-}
-
-.qrcode {
-  display: block;
-  border: 1px solid #bfc9d9;
-  font-weight: 800;
-  outline: none;
-  border-radius: 8px;
-  color: #6d7588;
-  font-weight: 800;
-  background-color: transparent;
-  padding: 0 16px;
-  width: 100%;
-  height: 45px;
-  margin-bottom: 8px;
-  line-height: 24px;
-  cursor: pointer;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.qr a {
-  text-decoration: none;
-}
-
-.withgoogle {
-  display: block;
-  border: 1px solid #bfc9d9;
-  font-weight: 800;
-  outline: none;
-  border-radius: 8px;
-  color: #6d7588;
-  font-weight: 800;
-  background-color: transparent;
-  padding: 0 16px;
-  width: 100%;
-  height: 45px;
-  cursor: pointer;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.google a {
-  text-decoration: none;
-}
 footer {
   display: flex;
   justify-content: center;
@@ -238,3 +177,19 @@ footer span a {
   border-left: 1px solid #bfc9d9;
   cursor: pointer;
 }
+.passwordinput{
+  flex: 1;
+  position: relative;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #E5E7E9;
+  margin-bottom: 20px;
+  outline: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border: 1px solid #E5E7E9;
+  transition: border-color 280ms ease 0s;
+  display: none;
+}
+
