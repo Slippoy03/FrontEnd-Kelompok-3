@@ -18,12 +18,12 @@ function Navbar() {
           <i data-feather="shopping-cart"></i>
         </div>
 
-        <div className="btn-masuk">
-          <button>Masuk</button>
-        </div>
+        <a href="Login" className="btn-masuk">
+        <button >Masuk</button>
+          </a>
 
         <div className="btn-daftar">
-          <button>Daftar</button>
+          <button >Daftar</button>
         </div>
       </div>
       <div className="text-under-search">
