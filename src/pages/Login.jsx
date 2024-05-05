@@ -1,4 +1,3 @@
-import React from 'react'
 import "./css/login.css";
 
 function Login() {
@@ -27,7 +26,7 @@ function Login() {
               <div className="need-help">
                 <a href="#">Butuh bantuan?</a>
               </div>
-              <a href="Home.jsx">
+              <a href="/Home">
                 <button className="next">
                   <span>Selanjutnya</span>
                 </button>
